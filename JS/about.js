@@ -3,6 +3,7 @@ const btnTeam = document.getElementById("btnTeam");
 const teamSection = document.getElementById("teamSection");
 const teamCards = document.getElementById("teamCards");
 
+
 // Data anggota tim
 const team = [
   { name: "Bastian AbiManyu", role: "Front-End Developer", img: "https://cdn-icons-png.flaticon.com/512/219/219970.png" },
@@ -12,6 +13,7 @@ const team = [
 
 // Event klik tombol
 btnTeam.addEventListener("click", () => {
+  alert('hallo');
   teamSection.classList.toggle("show");
 
   // Tambahkan card tim hanya saat pertama kali
