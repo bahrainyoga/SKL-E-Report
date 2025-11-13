@@ -13,7 +13,6 @@ const team = [
 
 // Event klik tombol
 btnTeam.addEventListener("click", () => {
-  alert('hallo');
   teamSection.classList.toggle("show");
 
   // Tambahkan card tim hanya saat pertama kali
